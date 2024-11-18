@@ -1,0 +1,53 @@
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    border: 2px solid pink;
+    background-color:aqua
+
+
+}
+div{
+    border: 2px solid green;
+
+}
+
+p{
+    border: 2px solid blue;
+
+
+}
+
+span {
+    border: 2px solid pink;
+
+}
+
+button{
+    border: 2px solid rgb(198, 39, 66);
+    background-color: white;
+}
+
+b{
+    font-size: 78px;
+    border: 2px solid rgb(48, 153, 125);
+    color:yellowgreen
+
+
+}
+
+i{
+    border: 2px solid rgb(189, 255, 68);
+
+}
+small{
+    border: 2px solid rgb(169, 64, 36);
+    background-color: white;
+
+}
