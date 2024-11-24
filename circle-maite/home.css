@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #f91031;
+    color: rgb(176, 0, 176);
+}
+
+a{
+    color:black;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.grid{
+    flex-wrap: wrap;
+}
+
+.container, .more {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #f2ff93;
+}
+
+.container a, .more a {
+    color: #6a553f; 
+    text-decoration: none; 
+    font-weight: bold;
+    border: 2px solid #6a553f; 
+    padding: 8px 15px;
+    border-radius: 8px;
+    background-color: #fdfeab;
+    transition: all 0.3s ease;
+}
+
+.container a:hover, .more a:hover {
+    color: #fdfeab;
+    background-color: #6a553f;
+    border-color: #fdfeab; 
+}
+
+.cloud-link {
+    background-color: white !important;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.active{
+    background-color: #401300;
+}
