@@ -85,30 +85,3 @@ body {
     background-color: #ff1b6b;
     border-color: #ff1b6b; 
 }
-
-
-.container, .more {
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #444;
-}
-
-.container a, .more a {
-    color: #ff1b6b; 
-    text-decoration: none; 
-    font-weight: bold;
-    border: 2px solid #ff1b6b; 
-    padding: 8px 15px;
-    border-radius: 8px;
-    background-color: #fff;
-    transition: all 0.3s ease;
-}
-
-.container a:hover, .more a:hover {
-    color: white;
-    background-color: #ff1b6b;
-    border-color: #ff1b6b; 
-}
