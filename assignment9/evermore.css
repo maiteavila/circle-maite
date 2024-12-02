@@ -156,21 +156,10 @@ header, #text-container, button {
   z-index: 2;
 }
 
-#gallery {
-  line-height:0;
-  -webkit-column-count:5; /* split it into 5 columns */
-  -webkit-column-gap:5px; /* give it a 5px gap between columns */
-  -moz-column-count:5;
-  -moz-column-gap:5px;
-  column-count:5;
-  column-gap:5px;
-  padding-left: 7%;
-  padding-right: 7%;
-}
 #gallery img {
   width: 100% !important;
   height: auto !important;
-  margin-bottom:5px; /* to match column gap */
+  margin-bottom:5px; 
   border-radius: 4px;
   transition: all 100ms;
 }
@@ -209,11 +198,11 @@ header, #text-container, button {
 
 #setlist {
   padding-top: 30px;
-  margin: 0 auto; /* Center the green section horizontally */
-  display: block; /* Keep it block-level */
-  text-align: center; /* Center-align the text inside */
+  margin: 0 auto; 
+  display: block; 
+  text-align: center;
   padding: 20px;
-  max-width: 1200px; /* Set a maximum width to make it narrower */
+  max-width: 1200px;
   background-color: #f6a478;
   border-radius: 16px;
   box-shadow: 8px 8px #023220;
