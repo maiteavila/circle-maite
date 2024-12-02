@@ -7,6 +7,12 @@ const backgrounds = [
     'url("erasbg6.jpg")',
     'url("erasbg7.jpg")',
     'url("erasbg8.jpg")',
+    'url("erasbg10.webp")',
+    'url("erasbg11.webp")',
+    'url("erasbg12.webp")',
+    'url("erasbg14.webp")',
+    'url("erasbg15.webp")',
+    'url("erasbg16.webp")',
 ];
 
 const button = document.getElementById("change-button");
@@ -20,3 +26,11 @@ function changeBackground() {
 
 button.addEventListener("click", changeBackground);
 
+document.getElementById('change-cursor').addEventListener('click', () => {
+    const cursorImage = 'cat3.png'; 
+    console.log("button is working!!!!")
+    console.log(cursorImage)
+      document.body.style.cursor = `url(${cursorImage}), auto`;
+  });
+  
+ 
