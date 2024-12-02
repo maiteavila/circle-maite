@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins&display=swap');
+
+
+:root{
+ --main-purple: #242e47;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #696763;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+    
+  font-family: "DM Serif Text", serif;
+  font-weight: 700;
+  font-style: oblique;
+  background-color: #cdc9c1;
+
+   }
+   body {
+    background-image:url(folklorebg.webp);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* padding-bottom: 30%; */
+   }
+   header{
+    margin: 0;
+}
+h1 {
+    padding-top: 22px;
+}
+  header > nav {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    background-color: #696763;
+    margin-bottom: 16px;
+    font-weight: bold; 
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+    font-weight: bold; 
+  }
+  a:visited, 
+a{
+  color:#cdc9c1;
+
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 0.7%;
+
+
+  }
+  
+  h2,
+  h3, ul {
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:"/assets/background.jpg";
+    font-style: italic;
+    text-align: center;
+  
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    transition: background-image 0.5s ease-in-out;
+    padding-bottom: 30%;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cdc9c1;
+    border: 3px solid#242e47;
+    border-radius: 5px;
+    color: #242e47;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold; 
+}
+
+button:hover {
+    background-color: #a5c9a5;
+    border: 3px solid black;
+    color: black;
+}
+
+#text-container {
+  text-align: center;
+  color: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  font-weight: 900;
+}
+
+#text-container h2 {
+  margin: 0;
+  font-family:  "DM Serif Text", serif;
+  font-weight: 900;
+  font-size: 80px;
+}
+
+#text-container p {
+  margin: 10px 0 0;
+  font-size: 35px;
+  font-weight: 10px;
+  ;
+
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(65, 73, 145, 0.505);
+  z-index: 1;
+}
+
+header, #text-container, button {
+  position: relative; 
+  z-index: 2;
+}
+
+#gallery {
+  line-height:0;
+  -webkit-column-count:5; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+  border-radius: 4px;
+  transition: all 100ms;
+}
+
+#gallery img:hover{
+  filter:contrast(120%)
+}
+
+@media (max-width: 1200px) {
+  #gallery {
+   -moz-column-count:    4;
+   -webkit-column-count: 4;
+   column-count:         4;
+  }
+}
+
+
+#setlist:hover {
+
+ box-shadow: 12px 12px #416073;
+
+}
+
+#oufits {
+  justify-content: center;
+  padding: -10px;
+
+}
+
+#outfits img {
+  width: 100%;
+  display: block; 
+  margin: 0 auto; 
+  padding-bottom: 30px;
+}
+
+#setlist {
+  padding-top: 30px;
+  margin: 0 auto; /* Center the green section horizontally */
+  display: block; /* Keep it block-level */
+  text-align: center; /* Center-align the text inside */
+  padding: 20px;
+  max-width: 1200px; /* Set a maximum width to make it narrower */
+  background-color: #cdc9c1;
+  border-radius: 16px;
+  box-shadow: 8px 8px #696763;
+  transition: all 300ms;
+  border-style:dashed;
+  border-width: 6px;
+  border-color: #696763; 
+}
+
+#setlist h2 {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color:#696763;
+  font-family: 'Berkshire Swash', cursive;
+}
+
